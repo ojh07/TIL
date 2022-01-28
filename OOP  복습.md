@@ -30,6 +30,16 @@ _ _ len(self)_ _ : 클래스의 길이라는 개념을 만들어줌
 
 __ equal(self, other) _ _ : 무엇으로 같다는 것을 비교할건가
 
+**공식문서 확인해보면 명확**
+
+str 과 repr 의 차이 
+
+str은 for human(사용자)
+
+repr은 for python + for developer  (디버깅 시 사용될수도)
+
+![image-20220127141617603](OOP%20%20%EB%B3%B5%EC%8A%B5.assets/image-20220127141617603.png)
+
 --
 
 메서드 정의시 첫번째 파라미터로 self를 적어주지 않으면 오류가 남
